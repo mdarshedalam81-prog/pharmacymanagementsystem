@@ -1,0 +1,22 @@
+{
+  "name": "medinest-pharmacy",
+  "version": "1.0.0",
+  "description": "MediNest Pharmacy - Full-Stack Online Pharmacy Management System",
+  "main": "index.js",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "5.1.1",
+    "cookie-parser": "1.4.7",
+    "express": "5.0.1",
+    "express-rate-limit": "7.4.1",
+    "helmet": "8.0.0",
+    "jsonwebtoken": "9.0.2",
+    "mongodb": "6.10.0"
+  }
+}
